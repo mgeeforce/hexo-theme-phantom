@@ -1,11 +1,14 @@
 # Header
 menu:
   Home: /
+  Photos: /photos
+  Videos: /videos
   Archives: /archives
   About: /about.html
 
 # Logo Image Source
-logo_src: /images/logo.svg
+logo_src: /images/quadcopter.svg
+logo_mdi: mdi-quadcopter 
 
 # Theme Main Subtitle
 subtitle_main: This is Phantom, a free, fully responsive site<br />template designed by <a href="http://html5up.net">HTML5 UP</a>.
@@ -26,12 +29,12 @@ default_cover_index: "http://placehold.it/450x450"
 default_cover_detail:
 
 # Show Dates for posts and pages
-show_dates:
+show_dates: true
 
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname: klugjo
+  disqus_shortname: zenfpv
   # Facebook comments
   facebook:
     appid:
@@ -42,13 +45,10 @@ comments:
 google_analytics:
 
 # Social Accounts
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
-instagram_url: https://www.instagram.com/
-dribble_url: https://dribbble.com/
-github_url: https://github.com/klugjo/hexo-theme-phantom/commits?author=klugjo
-googleplus_url: https://plus.google.com/
-behance_url: https://www.behance.net/
-fivehundredpx_url: https://500px.com/
-email_url: \#
-rss_url: \#
+twitter_url: https://twitter.com/mgeeforce?lang=en
+facebook_url: https://www.facebook.com/mgeeforce
+instagram_url: https://www.instagram.com/mgeeforce
+#dribble_url: https://dribbble.com/
+github_url: https://github.com/mgeeforce/hexo-theme-phantom
+email_url: mailto:mgeeforce@gmail.com
+rss_url: /atom.xml
